@@ -40,53 +40,53 @@ local left_panel = function(screen)
     height = screen.geometry.height
   }
 
-function panel:run_rofi()
-  _G.awesome.spawn(
-    apps.default.rofi,
-    false,
-    false,
-    false,
-    false,
-    function()
-      -- Force close instead of toggle (more reliable on SomeWM)
-      if panel.opened then
-        panel.opened = false
-        panel.width = action_bar_width
-        panel:get_children_by_id('panel_content')[1].visible = false
-        backdrop.visible = false
-        panel:emit_signal('closed')
-      end
-    end
-  )
-end
+	function panel:run_rofi()
+	  _G.awesome.spawn(
+	    apps.default.rofi,
+	    false,
+	    false,
+	    false,
+	    false,
+	    function()
+	      -- Force close instead of toggle (more reliable on SomeWM)
+	      if panel.opened then
+	        panel.opened = false
+	        panel.width = action_bar_width
+	        panel:get_children_by_id('panel_content')[1].visible = false
+	        backdrop.visible = false
+	        panel:emit_signal('closed')
+	      end
+	    end
+	  )
+	end
 
-local openPanel = function(should_run_rofi)
-  panel.opened = true
-  panel.width = action_bar_width + panel_content_width
-  backdrop.visible = true
-  panel.visible = true
-  panel:get_children_by_id('panel_content')[1].visible = true
-  if should_run_rofi then
-    panel:run_rofi()
-  end
-  panel:emit_signal('opened')
-end
+	local openPanel = function(should_run_rofi)
+	  panel.opened = true
+	  panel.width = action_bar_width + panel_content_width
+	  backdrop.visible = true
+	  panel.visible = true
+	  panel:get_children_by_id('panel_content')[1].visible = true
+	  if should_run_rofi then
+	    panel:run_rofi()
+	  end
+	  panel:emit_signal('opened')
+	end
 
-local closePanel = function()
-  panel.opened = false
-  panel.width = action_bar_width
-  panel:get_children_by_id('panel_content')[1].visible = false
-  backdrop.visible = false
-  panel:emit_signal('closed')
-end
+	local closePanel = function()
+	  panel.opened = false
+	  panel.width = action_bar_width
+	  panel:get_children_by_id('panel_content')[1].visible = false
+	  backdrop.visible = false
+	  panel:emit_signal('closed')
+	end
 
-function panel:toggle(should_run_rofi)
-  if self.opened then
-    closePanel()
-  else
-    openPanel(should_run_rofi)
-  end
-end
+	function panel:toggle(should_run_rofi)
+	  if self.opened then
+	    closePanel()
+	  else
+	    openPanel(should_run_rofi)
+	  end
+	end
 
   backdrop:buttons(
     awful.util.table.join(

@@ -10,7 +10,7 @@ return {
   default = {
     terminal = 'terminator',
     rofi = 'rofi -show drun',
-    lock = 'systemd-logind',
+    lock = 'i3lock',
     quake = 'terminator',
     screenshot = 'grim',
     region_screenshot = 'grim',
