@@ -10,7 +10,7 @@ local apps = require('configuration.apps')
 local globalKeys =
   awful.util.table.join(
   -- Hotkeys
-  awful.key({modkey}, 'F1', hotkeys_popup.show_help, {description = 'show help', group = 'somewm'}),
+  awful.key({modkey}, 'F1', hotkeys_popup.show_help, {description = 'show help', group = 'awesome'}),
   -- Tag browsing
   awful.key({modkey}, 'w', awful.tag.viewprev, {description = 'view previous', group = 'tag'}),
   awful.key({modkey}, 's', awful.tag.viewnext, {description = 'view next', group = 'tag'}),
@@ -40,7 +40,7 @@ local globalKeys =
     function()
       _G.screen.primary.left_panel:toggle(true)
     end,
-    {description = 'show main menu', group = 'somewm'}
+    {description = 'show main menu', group = 'awesome'}
   ),
   awful.key(
     {altkey},
@@ -48,7 +48,7 @@ local globalKeys =
     function()
       _G.screen.primary.left_panel:toggle(true)
     end,
-    {description = 'show main menu', group = 'somewm'}
+    {description = 'show main menu', group = 'awesome'}
   ),
   awful.key({modkey}, 'u', awful.client.urgent.jumpto, {description = 'jump to urgent client', group = 'client'}),
   awful.key(
@@ -133,8 +133,8 @@ local globalKeys =
     end,
     {description = 'open a terminal', group = 'launcher'}
   ),
-  awful.key({modkey, 'Control'}, 'r', _G.awesome.restart, {description = 'reload somewm', group = 'somewm'}),
-  awful.key({modkey, 'Control'}, 'q', _G.awesome.quit, {description = 'quit somewm', group = 'somewm'}),
+  awful.key({modkey, 'Control'}, 'r', _G.awesome.restart, {description = 'reload awesome', group = 'awesomm'}),
+  awful.key({modkey, 'Control'}, 'q', _G.awesome.quit, {description = 'quit awesome', group = 'awesome'}),
   awful.key(
     {altkey, 'Shift'},
     'Right',
