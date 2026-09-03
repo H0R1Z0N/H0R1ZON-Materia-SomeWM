@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   width="240"
+   height="240"
+   viewBox="0 0 24 24"
+   sodipodi:docname="hibernate-button-svgrepo-com.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="856"
+     id="namedview7"
+     showgrid="false"
+     inkscape:zoom="2.725"
+     inkscape:cx="120"
+     inkscape:cy="208.07339"
+     inkscape:window-x="0"
+     inkscape:window-y="944"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="Capa_1"
+     inkscape:document-rotation="0" />
+  <g
+     id="g4"
+     transform="scale(0.97861752,0.97915082)">
+    <path
+       style="fill:#ffffff"
+       d="M 12.196,0 C 5.46,0 0,5.46 0,12.196 c 0,6.736 5.46,12.197 12.196,12.197 6.736,0 12.197,-5.461 12.197,-12.197 C 24.393,5.46 18.932,0 12.196,0 Z m 0,21.782 c -5.295,0 -9.586,-4.291 -9.586,-9.586 0,-5.295 4.291,-9.586 9.586,-9.586 5.295,0 9.586,4.291 9.586,9.586 0,5.295 -4.291,9.586 -9.586,9.586 z M 14.1,7.436 v 9.519 c 0,1.051 -0.852,1.904 -1.904,1.904 -1.052,0 -1.904,-0.852 -1.904,-1.904 V 7.436 c 0,-1.051 0.852,-1.904 1.904,-1.904 1.052,0 1.904,0.853 1.904,1.904 z"
+       id="path2" />
+  </g>
+</svg>
