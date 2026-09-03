@@ -20,7 +20,7 @@ An almost desktop environment made with [SomeWM](https:/somewm.org/) following t
 #### Arch-Based
 
 ```
-yay -S somewm rofi picom i3lock-fancy xclip ttf-roboto gnome-polkit materia-gtk-theme lxappearance flameshot pnmixer network-manager-applet xfce4-power-manager cmus playerctl papirus-icon-theme backlightctl -y
+yay -S somewm rofi picom i3lock-fancy xclip ttf-roboto gnome-polkit materia-gtk-theme lxappearance flameshot pnmixer network-manager-applet xfce4-power-manager cmus playerctl papirus-icon-theme backlightctl kanshi -y
 ```
 
 #### Program list
