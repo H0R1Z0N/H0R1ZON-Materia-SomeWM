@@ -1,4 +1,4 @@
-local dir = os.getenv('HOME') .. '/.config/awesome/theme/icons'
+local dir = os.getenv('HOME') .. '/.config/somewm/theme/icons'
 
 return {
   --tags

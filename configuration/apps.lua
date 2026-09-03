@@ -9,15 +9,15 @@ return {
   -- List of apps to start by default on some actions
   default = {
     terminal = 'terminator',
-    rofi = rofi_command,
+    rofi = 'rofi -show drun',
     lock = 'systemd-logind',
     quake = 'terminator',
     screenshot = 'grim',
     region_screenshot = 'grim',
     window_screenshot = 'grim',
-    --screenshot = '~/.config/awesome/configuration/utils/screenshot -m',
-    --region_screenshot = '~/.config/awesome/configuration/utils/screenshot -r',
-    --delayed_screenshot = '~/.config/awesome/configuration/utils/screenshot --delayed -r',
+    --screenshot = '~/.config/somewm/configuration/utils/screenshot -m',
+    --region_screenshot = '~/.config/somewm/configuration/utils/screenshot -r',
+    --delayed_screenshot = '~/.config/somewm/configuration/utils/screenshot --delayed -r',
     --screenshot = 'gnome-screenshot -c',
     --region_screenshot = 'gnome-screenshot -c -a',
     --window_screenshot = 'gnome-screenshot -c -w',
@@ -48,6 +48,6 @@ return {
     -- '~/.local/bin/wallpaper', -- wallpaper-reddit script
     -- Add applications that need to be killed between reloads
     -- to avoid multipled instances, inside the awspawn script
-    '~/.config/awesome/configuration/awspawn' -- Spawn "dirty" apps that can linger between sessions
+    '~/.config/somewm/configuration/awspawn' -- Spawn "dirty" apps that can linger between sessions
   }
 }

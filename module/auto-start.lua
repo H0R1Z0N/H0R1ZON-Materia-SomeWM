@@ -1,5 +1,5 @@
 -- MODULE AUTO-START
--- Run all the apps listed in configuration/apps.lua as run_on_start_up only once when awesome start
+-- Run all the apps listed in configuration/apps.lua as run_on_start_up only once when somewm start
 
 local awful = require('awful')
 local apps = require('configuration.apps')

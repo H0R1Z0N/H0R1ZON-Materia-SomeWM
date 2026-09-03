@@ -18,9 +18,9 @@ theme.accent = mat_colors.pink
 -- Background
 theme.background = mat_colors.grey
 
-local awesome_overrides =
+local somewm_overrides =
   function(theme)
-  theme.dir = os.getenv('HOME') .. '/.config/awesome/theme'
+  theme.dir = os.getenv('HOME') .. '/.config/somewm/theme'
 
   theme.icons = theme.dir .. '/icons/'
   theme.wallpaper = theme.dir .. '/wallpapers/LinusFuckNvidiaEdit.png'
@@ -105,5 +105,5 @@ local awesome_overrides =
 end
 return {
   theme = theme,
-  awesome_overrides = awesome_overrides
+  somewm_overrides = somewm_overrides
 }

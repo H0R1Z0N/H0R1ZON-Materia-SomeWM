@@ -21,10 +21,10 @@ theme.background = mat_colors.green
 theme.background.hue_800 = '#770000'
 theme.background.hue_900 = '#ff0088'
 
-local awesome_overrides = function(theme)
+local somewm_overrides = function(theme)
   --
 end
 return {
   theme = theme,
-  awesome_overrides = awesome_overrides
+  somewm_overrides = somewm_overrides
 }

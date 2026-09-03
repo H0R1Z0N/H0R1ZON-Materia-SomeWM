@@ -18,7 +18,7 @@ return function(screen, panel, action_bar_width)
 
   -- Add a calendar (credits to kylekewley for the original code)
   local month_calendar = awful.widget.calendar_popup.month({
-    screen = s,
+    screen = screen,
     start_sunday = true,
     week_numbers = true
   })

@@ -21,7 +21,7 @@ local dpi = require('beautiful').xresources.apply_dpi
 -- Battery 0: Charging, 53%, 00:57:43 until charged
 
 local HOME = os.getenv('HOME')
-local PATH_TO_ICONS = HOME .. '/.config/awesome/widget/package-updater/icons/'
+local PATH_TO_ICONS = HOME .. '/.config/somewm/widget/package-updater/icons/'
 local updateAvailable = false
 local numOfUpdatesAvailable
 

@@ -20,19 +20,19 @@ naughty.config.defaults.border_width = 0
 naughty.config.defaults.hover_timeout = nil
 
 -- Error handling
-if _G.awesome.startup_errors then
+if _G.somewm.startup_errors then
   naughty.notify(
     {
       preset = naughty.config.presets.critical,
       title = 'Oops, there were errors during startup!',
-      text = _G.awesome.startup_errors
+      text = _G.somewm.startup_errors
     }
   )
 end
 
 do
   local in_error = false
-  _G.awesome.connect_signal(
+  _G.somewm.connect_signal(
     'debug::error',
     function(err)
       if in_error then
