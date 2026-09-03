@@ -43,7 +43,7 @@ function suspend_command()
   awful.spawn.with_shell(apps.default.lock .. ' & systemctl suspend')
 end
 function exit_command()
-  _G.awesome.quit()
+  _G.somewm.quit()
 end
 function lock_command()
   exit_screen_hide()

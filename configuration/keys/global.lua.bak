@@ -133,8 +133,8 @@ local globalKeys =
     end,
     {description = 'open a terminal', group = 'launcher'}
   ),
-  awful.key({modkey, 'Control'}, 'r', _G.awesome.restart, {description = 'reload somewm', group = 'somewm'}),
-  awful.key({modkey, 'Control'}, 'q', _G.awesome.quit, {description = 'quit somewm', group = 'somewm'}),
+  awful.key({modkey, 'Control'}, 'r', _G.somewm.restart, {description = 'reload somewm', group = 'somewm'}),
+  awful.key({modkey, 'Control'}, 'q', _G.somewm.quit, {description = 'quit somewm', group = 'somewm'}),
   awful.key(
     {altkey, 'Shift'},
     'Right',

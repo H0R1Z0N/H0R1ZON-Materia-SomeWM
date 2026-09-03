@@ -41,7 +41,7 @@ local left_panel = function(screen)
   }
 
 function panel:run_rofi()
-  _G.awesome.spawn(
+  _G.somewm.spawn(
     apps.default.rofi,
     false,
     false,
