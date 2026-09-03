@@ -23,12 +23,6 @@ An almost desktop environment made with [SomeWM](https:/somewm.org/) following t
 yay -S somewm rofi picom i3lock-fancy xclip ttf-roboto gnome-polkit materia-gtk-theme lxappearance flameshot pnmixer network-manager-applet xfce4-power-manager cmus playerctl papirus-icon-theme backlightctl -y
 ```
 
-### 2) Install this font
-
-https://fonts.google.com/specimen/Overlock
-
-Unzip it in ~/.fonts
-
 #### Program list
 
 - [SomeWM](https://somewm.org/) as the window manager - universal package install: somewm
@@ -47,6 +41,11 @@ Unzip it in ~/.fonts
 - [network-manager-applet](https://gitlab.gnome.org/GNOME/network-manager-applet) nm-applet is a Network Manager Tray display from GNOME.
 - [xfce4-power-manager](https://docs.xfce.org/xfce/xfce4-power-manager/start) XFCE4's power manager is excellent and a great way of dealing with sleep, monitor timeout, and other power management features.
 
+### 2) Install this font
+
+https://fonts.google.com/specimen/Overlock
+
+Unzip it in ~/.fonts
 
 ### 3) Clone the configuration
 
