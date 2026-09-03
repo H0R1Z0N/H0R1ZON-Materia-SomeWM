@@ -30,6 +30,7 @@ return {
   },
   -- List of apps to start once on start-up
   run_on_start_up = {
+	'kanshi', --Don't forget to setup your resolution first
     'nm-applet --indicator', -- wifi
     'pnmixer', -- shows an audiocontrol applet in systray when installed.
     'blueberry-tray', -- Bluetooth tray icon
